@@ -9,19 +9,13 @@ module top #(parameter RESOLUTION=480) (
     output tx_uart,
     input rx_uart,
     input button,
-//    input tmds_r,
-//    input tmds_g,
+//    input tmds_r, // for potential future support
+//    input tmds_g, // for potential future support
     input tmds_b,
     input tmds_c,
     output vsync,
     output [2:0] debug
 );
-
-wire tmds_b;
-
-//These are not needed! Occurs automatically
-//ILVDS tmds_blue(.A(tmds_b_p), .AN(tmds_b_n), .Z(tmds_b));
-//ILVDS tmds_clock(.A(tmds_c_p), .AN(tmds_c_n), .Z(tmds_c));
 
 // set up 25MHz to use as base clk ----------------------
 wire clk25;
