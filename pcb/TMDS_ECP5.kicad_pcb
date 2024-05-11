@@ -184,18 +184,19 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at 0 -1.05 -90)
+			(at 0 -1.05 270)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0963fc4b-0c06-4d93-b6b7-e8c09990cfff")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.05 -90)
+			(at 0 1.05 270)
 			(layer "F.Fab")
 			(uuid "5c353428-613d-46af-b8bb-12bc0b48d017")
 			(effects
@@ -327,7 +328,7 @@
 			(uuid "3c7c6dec-2d2d-469c-9ee2-9ec07cc417ef")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 -90)
+			(at 0 -0.68 270)
 			(layer "F.Fab")
 			(uuid "07ae4a3f-19df-4287-af2e-675d20840e87")
 			(effects
@@ -388,18 +389,19 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R12"
-			(at 0 -1.05 0)
+			(at 0 -1.05 360)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0cd555f6-1ce4-4b22-9d39-0a531edec32c")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.05 0)
+			(at 0 1.05 360)
 			(layer "F.Fab")
 			(uuid "d93273e8-876b-4481-aacb-40c1b2c8e169")
 			(effects
@@ -531,7 +533,7 @@
 			(uuid "3004198a-7030-4360-8412-4464ebd42a7f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 0)
+			(at 0 -0.68 360)
 			(layer "F.Fab")
 			(uuid "a5ed898f-b651-4979-9d5c-72ae22cb332a")
 			(effects
@@ -592,18 +594,19 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R5"
-			(at 0 -1.05 0)
+			(at 0 -1.05 360)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "1dc199ef-b8ac-450e-a0ca-7726a882605d")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.05 0)
+			(at 0 1.05 360)
 			(layer "F.Fab")
 			(uuid "d9be5ac8-69ae-492a-a4a8-10faf15fef65")
 			(effects
@@ -735,7 +738,7 @@
 			(uuid "77cc449f-85eb-4d44-af12-f4edd574b43d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 0)
+			(at 0 -0.68 360)
 			(layer "F.Fab")
 			(uuid "ce3b4f69-772a-4c2b-8176-a7e77147dea6")
 			(effects
@@ -795,19 +798,19 @@
 		(at 136 81.5)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R4"
-			(at 0 -1.05 0)
+		(property "Reference" "10kohm"
+			(at 1.5 0.5 90)
 			(layer "F.SilkS")
 			(uuid "f4049828-8a1a-45bd-a49d-d7d6407031f3")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.05 0)
+			(at 0 1.05 360)
 			(layer "F.Fab")
 			(uuid "40bd7141-40d3-4056-b2ca-d4684dee1b0e")
 			(effects
@@ -939,7 +942,7 @@
 			(uuid "368d6ab2-3c3e-47b3-a84c-78a8f8b8dd82")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 0)
+			(at 0 -0.68 360)
 			(layer "F.Fab")
 			(uuid "aa6c326f-5ff1-4e02-b123-9ddd2dc20fe3")
 			(effects
@@ -999,19 +1002,19 @@
 		(at 137.343874 96.041681 90)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C8"
-			(at 0 -1.05 -90)
+		(property "Reference" "100nF"
+			(at 1.541681 -6.843874 0)
 			(layer "F.SilkS")
 			(uuid "527f94db-cfc6-45de-bff2-799a22a517e5")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.05 -90)
+			(at 0 1.05 270)
 			(layer "F.Fab")
 			(uuid "5d9f4870-6508-42d4-bd29-a91b86cf5ea3")
 			(effects
@@ -1143,7 +1146,7 @@
 			(uuid "5b9f6d03-15a9-432a-958b-0d1f7a7efdab")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 -90)
+			(at 0 -0.68 270)
 			(layer "F.Fab")
 			(uuid "e23b278f-7870-480a-abd4-2662eee787d7")
 			(effects
@@ -1204,12 +1207,13 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R20"
-			(at 0 -1.05 180)
+			(at 14.04 -9 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0cf10692-1689-464a-96d0-999f2214b857")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
@@ -1408,18 +1412,19 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 0 -1.05 -90)
+			(at 0 -1.05 270)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "5a3c093e-2b23-448b-87e7-ee6aa54a4aa1")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.05 -90)
+			(at 0 1.05 270)
 			(layer "F.Fab")
 			(uuid "891b8c22-63a3-4126-bb9a-ef6e00ccaa8e")
 			(effects
@@ -1551,7 +1556,7 @@
 			(uuid "1331e6e4-8fb6-417f-8b87-3333691b5947")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 -90)
+			(at 0 -0.68 270)
 			(layer "F.Fab")
 			(uuid "cc5fcd6a-00f5-40a4-84c7-7661f23ea186")
 			(effects
@@ -1612,18 +1617,19 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R9"
-			(at 0 -1.05 0)
+			(at 0 -1.05 360)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0e8dce78-226f-4b67-b9f5-f18915565eb6")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.05 0)
+			(at 0 1.05 360)
 			(layer "F.Fab")
 			(uuid "84b82f28-5bf2-4c77-b71c-88520ec4a9ff")
 			(effects
@@ -1755,7 +1761,7 @@
 			(uuid "438fccd0-9bc7-49c7-9ec2-2ee07a5daa54")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 0)
+			(at 0 -0.68 360)
 			(layer "F.Fab")
 			(uuid "6ceca7f5-c335-4f9e-a811-a7e36068d4a7")
 			(effects
@@ -1816,18 +1822,19 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at 0 -1.05 0)
+			(at 0 -1.05 360)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "02242789-9b17-4c6d-b69a-f4b458f836c4")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.05 0)
+			(at 0 1.05 360)
 			(layer "F.Fab")
 			(uuid "5b841ed8-c16f-4677-8d9b-585b53ae377a")
 			(effects
@@ -1959,7 +1966,7 @@
 			(uuid "b53287db-8e21-44ed-a3e2-90746b825224")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 0)
+			(at 0 -0.68 360)
 			(layer "F.Fab")
 			(uuid "8a42606f-d031-402e-be53-71f6ae6b7e13")
 			(effects
@@ -2019,8 +2026,8 @@
 		(at 130 107)
 		(descr "HDMI Type A connector, Amphenol 10029449-001TLF 10029449-001RLF 10029449-101TLF 10029449-101RLF, Right Angle(https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10029449.pdf)")
 		(tags "hdmi right angle")
-		(property "Reference" "J1"
-			(at 0 -7.1 0)
+		(property "Reference" "HDMI"
+			(at 0 0.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "135e1ad8-a73b-4471-9eca-e84a8a6285fc")
@@ -2522,12 +2529,13 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R19"
-			(at 0 -1.05 180)
+			(at 17.18 -8 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9de22a7c-986c-44ef-8bad-8ea682e0e22b")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
@@ -2726,18 +2734,19 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R16"
-			(at 0 -1.05 0)
+			(at 0 -1.05 360)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "2311fdc0-55fb-47ac-804d-61e0869e506b")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.05 0)
+			(at 0 1.05 360)
 			(layer "F.Fab")
 			(uuid "7fb9c8ce-fcc0-4ffd-8f43-f712adb3c17f")
 			(effects
@@ -2869,7 +2878,7 @@
 			(uuid "4003e2fd-5de6-4278-aa2c-bc86dbfbfdab")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 0)
+			(at 0 -0.68 360)
 			(layer "F.Fab")
 			(uuid "93594712-0a72-43e2-aca2-97c74e52ac66")
 			(effects
@@ -2929,19 +2938,19 @@
 		(at 128 82.155 90)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C10"
-			(at 0 -1.05 -90)
+		(property "Reference" "1uF"
+			(at -1.845 0 270)
 			(layer "F.SilkS")
 			(uuid "5f554e50-b591-463e-84e4-818312efba07")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "1u"
-			(at 0 1.05 -90)
+			(at 0 1.05 270)
 			(layer "F.Fab")
 			(uuid "6b4c13a1-889f-42ec-9417-68b1b739aa34")
 			(effects
@@ -3073,7 +3082,7 @@
 			(uuid "c91a5b35-d897-467c-abed-9725ed1f31b4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 -90)
+			(at 0 -0.68 270)
 			(layer "F.Fab")
 			(uuid "76a50999-999a-444a-acd1-0dc88e4ab248")
 			(effects
@@ -3134,18 +3143,19 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C4"
-			(at 0 -1.05 -90)
+			(at 0 -1.05 270)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "8466817d-840e-4d27-904e-d7ee9c61a003")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.05 -90)
+			(at 0 1.05 270)
 			(layer "F.Fab")
 			(uuid "8d90baa3-25f6-4b8e-b67d-1631fac3edad")
 			(effects
@@ -3277,7 +3287,7 @@
 			(uuid "41a5a1ef-0ec3-4241-a6a2-2e8fa8f5098d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 -90)
+			(at 0 -0.68 270)
 			(layer "F.Fab")
 			(uuid "3543f48b-21e4-40ea-bb32-a14631e0682b")
 			(effects
@@ -3338,12 +3348,13 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R23"
-			(at 0 -1.05 180)
+			(at -7.32 -2.5 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "4659f645-36fb-471b-a967-4e6c8fa9b564")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
@@ -3541,13 +3552,13 @@
 		(at 125.5 98 180)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R17"
-			(at 0 -1.05 180)
+		(property "Reference" "50ohm"
+			(at -5 -1 180)
 			(layer "F.SilkS")
 			(uuid "ee846bb1-c098-4a63-b0d9-7bbdf81e306e")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
@@ -3748,10 +3759,11 @@
 		(property "Reference" "R11"
 			(at 0 -1.05 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "da238f4b-311a-43f4-9b53-bc1a0ed79580")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
@@ -3952,10 +3964,11 @@
 		(property "Reference" "R10"
 			(at 0 -1.05 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "5db1b66c-8f73-4071-b04f-06e82ddc731e")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
@@ -4156,10 +4169,11 @@
 		(property "Reference" "R2"
 			(at 0 -1.05 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b691e299-50ab-4848-8e97-380d53df697d")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
@@ -4358,12 +4372,13 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R18"
-			(at 0 -1.05 180)
+			(at 9.18 -5.5 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "bed562f5-5e50-4b53-8499-69558c9aa031")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
@@ -4562,23 +4577,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R8"
-			(at 0 -1.05 0)
+			(at 0 -1.05 360)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "511cf41f-c1c4-490b-8214-b7882a50ae82")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+		(property "Value" "10kohm"
+			(at -5.655 -1 90)
+			(layer "F.SilkS")
 			(uuid "220e2000-c300-4a96-8d26-0647785c5a6b")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
@@ -4705,7 +4721,7 @@
 			(uuid "c69e8636-1a9b-4719-ad2a-08aed7a26dcb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 0)
+			(at 0 -0.68 360)
 			(layer "F.Fab")
 			(uuid "3e74ab04-89c3-43f8-bc20-8b16157df868")
 			(effects
@@ -4766,18 +4782,19 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 0 -1.05 -90)
+			(at 0 -1.05 270)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "418a461d-4955-4d64-a756-24d46516e792")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.05 -90)
+			(at 0 1.05 270)
 			(layer "F.Fab")
 			(uuid "ecca82a1-090b-4bd1-a5bd-925776bf1a94")
 			(effects
@@ -4909,7 +4926,7 @@
 			(uuid "9e49efdf-df81-4005-af3e-f31e99637f6b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 -90)
+			(at 0 -0.68 270)
 			(layer "F.Fab")
 			(uuid "a31d907f-785e-4676-8b3b-526f5e4ca294")
 			(effects
@@ -4970,23 +4987,24 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C11"
-			(at 0 -1.05 -90)
+			(at 1.655 -4 270)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "7a7c3a31-8ae9-4468-a596-a2d3c31b7f9e")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
 		)
-		(property "Value" "100n"
-			(at 0 1.05 -90)
-			(layer "F.Fab")
+		(property "Value" "100nF"
+			(at 2.155 0 270)
+			(layer "F.SilkS")
 			(uuid "8b0e3ca3-20f9-47be-9985-0739d9779ce8")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
@@ -5113,7 +5131,7 @@
 			(uuid "c84cdfc0-3746-4a89-8806-6d1fef66f968")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 -90)
+			(at 0 -0.68 270)
 			(layer "F.Fab")
 			(uuid "8b1de283-dc49-4893-a9fe-90ec81ecfa61")
 			(effects
@@ -5176,10 +5194,11 @@
 		(property "Reference" "R7"
 			(at 0 -1.05 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "46bad557-affa-4517-a274-e672ba770749")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
@@ -5380,10 +5399,11 @@
 		(property "Reference" "R14"
 			(at 0 -1.05 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "09a3de45-d0ac-429e-99b8-d891848771c2")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
@@ -5584,10 +5604,11 @@
 		(property "Reference" "R3"
 			(at 0 -1.05 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "82be77d7-0491-4887-b6b2-6e9c23eaea15")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
@@ -5786,18 +5807,19 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C7"
-			(at 0 -1.05 -90)
+			(at 0 -1.05 270)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "4ddcbf6d-3456-4099-8f53-e3f7b9c86527")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.05 -90)
+			(at 0 1.05 270)
 			(layer "F.Fab")
 			(uuid "e26deea9-3bd2-49fb-9c8b-45873863ffdd")
 			(effects
@@ -5929,7 +5951,7 @@
 			(uuid "da3ee7c7-3c76-4beb-b123-34eada732878")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 -90)
+			(at 0 -0.68 270)
 			(layer "F.Fab")
 			(uuid "044b1a36-dd1f-4e24-8f12-74edaa749984")
 			(effects
@@ -5990,23 +6012,24 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C12"
-			(at 0 -1.05 -90)
+			(at 3.655 0 270)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "7c6ba141-756a-4a25-81c3-29c574d3d19f")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
 		)
-		(property "Value" "1u"
-			(at 0 1.05 -90)
-			(layer "F.Fab")
+		(property "Value" "1uF"
+			(at 1.655 0 270)
+			(layer "F.SilkS")
 			(uuid "a30b181a-36a1-4744-983f-f5cc749aa6da")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
@@ -6133,7 +6156,7 @@
 			(uuid "3364a547-68b1-4659-8a2a-65b62bd6a8ab")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 -90)
+			(at 0 -0.68 270)
 			(layer "F.Fab")
 			(uuid "634f15c9-206f-4ea6-b93b-763d12a60e50")
 			(effects
@@ -6196,10 +6219,11 @@
 		(property "Reference" "R6"
 			(at 0 -1.05 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "bafa8748-878e-4f7d-9e6d-b6f341aca6f3")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
@@ -6398,12 +6422,13 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R21"
-			(at 0 -1.05 180)
+			(at -10.32 1.5 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "5d6bfc5c-4d60-4711-b096-ed47f16f62e9")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
@@ -6601,19 +6626,19 @@
 		(at 98.984 78.05 90)
 		(descr "Through hole straight pin header, 2x16, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x16 2.54mm double row")
-		(property "Reference" "J2"
-			(at 1.27 -2.33 -90)
+		(property "Reference" "J33"
+			(at -2.45 0.516 0)
 			(layer "F.SilkS")
 			(uuid "aa64aae1-2940-4a71-bbde-bebc83bcc7c9")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "Conn_02x16_Odd_Even"
-			(at 1.27 40.43 -90)
+			(at 6.55 19.516 0)
 			(layer "F.Fab")
 			(uuid "9bc1f330-cec7-42da-890d-b27a4b2af640")
 			(effects
@@ -7216,18 +7241,19 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C5"
-			(at 0 -1.05 -90)
+			(at 0 -1.05 270)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c05291a2-3304-4366-b25a-0d68cdf228ff")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.05 -90)
+			(at 0 1.05 270)
 			(layer "F.Fab")
 			(uuid "4c2dde90-2302-4f64-a4a3-65876ae8ea20")
 			(effects
@@ -7359,7 +7385,7 @@
 			(uuid "98833dd2-2926-4329-a449-9c395412a47b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 -90)
+			(at 0 -0.68 270)
 			(layer "F.Fab")
 			(uuid "1e1d5739-99b8-4498-990e-faa55e99afec")
 			(effects
@@ -7419,19 +7445,19 @@
 		(at 100 98.62 90)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
-		(property "Reference" "J3"
-			(at 0.12 -3 -90)
+		(property "Reference" "JP11"
+			(at 2.62 2 0)
 			(layer "F.SilkS")
 			(uuid "d5db65f5-7699-4d13-b306-8735fc17b2f8")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 14.86 13.91 -90)
+			(at 14.86 13.91 270)
 			(layer "F.Fab")
 			(uuid "3de2b835-f64a-4b77-89f8-dead854de2df")
 			(effects
@@ -7695,18 +7721,19 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R13"
-			(at 0 -1.05 0)
+			(at 0 -1.05 360)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "8891a501-482a-4fef-9d86-939fd90628ce")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.05 0)
+			(at 0 1.05 360)
 			(layer "F.Fab")
 			(uuid "fb39a4e0-86c7-46f1-a00b-82877c6aaea6")
 			(effects
@@ -7838,7 +7865,7 @@
 			(uuid "ce5b8400-1b7b-4786-8dff-35573ac369e7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 0)
+			(at 0 -0.68 360)
 			(layer "F.Fab")
 			(uuid "48c54589-5321-4188-be0c-49200eac15bf")
 			(effects
@@ -7901,10 +7928,11 @@
 		(property "Reference" "R15"
 			(at 0 -1.05 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a1b2f19e-1b72-4d31-88a2-ea02dbd8e58a")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
@@ -8103,12 +8131,13 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R24"
-			(at 0 -1.05 180)
+			(at -5.46 -5 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "bc01aef9-0707-4954-91e1-808aa0c1b896")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
@@ -8306,19 +8335,19 @@
 		(at 126.5 82.155 90)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C9"
-			(at 0 -1.05 -90)
+		(property "Reference" "100nF"
+			(at -2.345 0 270)
 			(layer "F.SilkS")
 			(uuid "ee256d23-321e-4407-b500-f2b0fe7e56c3")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.05 -90)
+			(at 0 1.05 270)
 			(layer "F.Fab")
 			(uuid "b1f6cc99-384c-4bf8-b1f8-50cb9d808e92")
 			(effects
@@ -8450,7 +8479,7 @@
 			(uuid "346aa8af-e1f3-4ba9-b58e-048a3df08c7b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 -90)
+			(at 0 -0.68 270)
 			(layer "F.Fab")
 			(uuid "9bd040f4-33af-4fa9-adbf-596ca8309f12")
 			(effects
@@ -8511,18 +8540,19 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C6"
-			(at 0 -1.05 -90)
+			(at 0 -1.05 270)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "7b94d7ec-782b-4dab-acc8-b912c1f0adc0")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.05 -90)
+			(at 0 1.05 270)
 			(layer "F.Fab")
 			(uuid "c934a221-9f8b-4157-b75b-90bfd5f32a75")
 			(effects
@@ -8654,7 +8684,7 @@
 			(uuid "a3fc2ae2-37b9-4ed4-b884-a198a1872438")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 -90)
+			(at 0 -0.68 270)
 			(layer "F.Fab")
 			(uuid "5e126a91-fc6a-433e-9009-bb3a4909193c")
 			(effects
@@ -8715,12 +8745,13 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R22"
-			(at 0 -1.05 180)
+			(at -8.82 0 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b5126ac0-58ae-4ffc-bec6-c99ad3a1b806")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.5 0.5)
 					(thickness 0.15)
 				)
 			)
